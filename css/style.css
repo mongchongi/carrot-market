@@ -3,6 +3,11 @@
 @import 'main.css';
 @import 'footer.css';
 
+:root {
+  --button-primary: #ffa220;
+  --button-hover: rgba(255, 162, 32, 0.8);
+}
+
 .media-info-msg {
   position: fixed;
   top: 0;
