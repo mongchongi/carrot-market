@@ -19,6 +19,24 @@ footer {
   cursor: pointer;
 }
 
+@keyframes icon-move {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icon-area:hover img {
+  animation: 1s icon-move;
+}
+
 .footer-icon-area img {
   width: 35px;
   display: block;
